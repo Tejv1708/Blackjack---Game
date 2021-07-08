@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background: url(./Black\ jack.jpg);
+    background-size: cover;
+    text-align: center;
+    color: rgb(10, 10, 10) ;
+    font-weight: bold;
+    
+    
+}
+.container{
+ display: flex ;
+ flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 207px;
+}
+
+h2{
+    color: goldenrod ;
+    font-size: 70px;
+}
+#message-el {
+    font-style: italic ;
+    font-size: 40px;
+}
+#start-el{
+    width: 167px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: gold ;
+    cursor: pointer ;
+    margin-top: 10px ;
+    
+}
+#newCard-el{
+    width: 167px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: gold ;
+    cursor: pointer ;
+    margin-top: 5px;
+   
+}
+
+
+p#player-el {
+    margin-top: 12px;
+}
+
+button:hover{
+    width: 177px  ;
+    transition: 1s;
+    color: aqua;
+}
